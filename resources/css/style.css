@@ -1,0 +1,61 @@
+body {
+  font-size: 16px;
+  font-family: helvetica;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+header {
+  height: 4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#logo {
+  height: 2rem;
+  padding-left: 1.5rem;
+  display: inline-flex;
+  align-items: center;
+}
+
+nav {
+  padding-right: 1.5rem;
+}
+
+span {
+  padding-left: 1rem;
+}
+
+#main {
+  background-color: lightgrey;
+  width: 100%;
+  display: flex;
+}
+
+#main img {
+  width: 60%;
+  height: 60%;
+  padding: 2rem 1.5rem;
+}
+
+.learn {
+  font-weight: bold;
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
+}
+
+.learn p {
+  padding: 1rem 0;
+}
+
+p.button {
+  background-color: black;
+  color: white;
+  width: 15rem;
+  padding: .5rem 0;
+  text-align: center;
+}
