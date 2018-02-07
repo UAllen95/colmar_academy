@@ -59,7 +59,8 @@ span {
 }
 
 #main {
-  background-color: #7B89E8;
+  color: #E6E7F0;
+  background-color: #6F25DE;
   border-bottom: solid 2px #471D70;
   width: 100%;
   display: flex;
@@ -82,16 +83,16 @@ h3.padding {
 }
 
 h3.button {
+  color: white;
   font-weight: normal;
   background-color: black;
-  color: white;
   width: 30rem;
   padding: 0.5rem 0;
   text-align: center;
 }
 
 .container {
-  background-color: #A9B6FF;
+  background-color: white;
   border-bottom: solid 2px #471D70;
   width: 100%;
   display: flex;
@@ -138,7 +139,7 @@ h3.button {
 
 .box.first,
 .box.third {
-  background-color: #E6E7F0;
+  background-color: #A9B6FF;
 }
 
 .box.secound {
@@ -162,8 +163,12 @@ h3.button {
 }
 
 #learn {
-  background-color: #7B89E8;
+  background-color: #6F25DE;
   border-bottom: solid 2px #471D70;
+}
+
+#learn .center {
+  color: #E6E7F0;
 }
 
 .center {
@@ -173,7 +178,7 @@ h3.button {
 }
 
 .center.exhibit {
-  background-color: #A9B6FF;
+  background-color: white;
 }
 
 .cta-center {
