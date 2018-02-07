@@ -1,10 +1,16 @@
 body {
   font-size: 16px;
-  font-family: helvetica;
+  font-family: sans-serif;
 }
 
 h1 {
-  font-size: 2rem;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
 }
 
 header {
@@ -41,21 +47,104 @@ span {
   padding: 2rem 1.5rem;
 }
 
-.learn {
-  font-weight: bold;
+.cta {
   display: flex;
   align-content: center;
   flex-wrap: wrap;
 }
 
-.learn p {
+.cta h3 {
   padding: 1rem 0;
 }
 
-p.button {
+.cta p {
   background-color: black;
   color: white;
-  width: 15rem;
+  width: 20rem;
   padding: .5rem 0;
   text-align: center;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+}
+
+.info {
+  width: 60%;
+}
+
+.info img {
+  width: 100%;
+  height: auto;
+}
+
+.list {
+  width: 40%;
+}
+
+.box {
+  border: solid 1px lightgray;
+  display: flex;
+}
+
+.box img {
+  width: 35%;
+  height: 35%;
+  padding: 1rem;
+}
+
+.text {
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
+  width: 38%;
+}
+
+.text h5 {
+
+}
+
+.text p {
+
+}
+
+#learn {
+  background-color: lightgray;
+}
+
+.center {
+  width: 100%;
+  padding: 2rem 0 1rem 0;
+  text-align: center;
+}
+
+.cta-center {
+  padding-bottom: 2rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.item {
+  background-color: white;
+  width: 25%;
+  margin: 1rem;
+}
+
+.item img {
+  width: 100%;
+  height: auto;
+}
+
+.learn-text h3 {
+  padding: 1rem;
+}
+
+.learn-text h5 {
+  padding: 0.5rem 1rem;
+}
+
+.learn-text p {
+  padding: 1.5rem 1rem;
 }
