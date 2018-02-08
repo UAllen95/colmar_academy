@@ -32,7 +32,7 @@ a {
 
 header {
   background-color: #E6E7F0;
-  border-bottom: solid 2px #471D70;
+  border-bottom: solid 2px #453073;
   height: 4rem;
   display: flex;
   justify-content: space-between;
@@ -58,12 +58,17 @@ span {
   padding-left: 1rem;
 }
 
+.hidden {
+  display: none;
+}
+
 #main {
   color: #E6E7F0;
-  background-color: #6F25DE;
-  border-bottom: solid 2px #471D70;
+  background-color: #7C56CF;
+  border-bottom: solid 2px #453073;
   width: 100%;
   display: flex;
+  flex-wrap: wrap;
 }
 
 #main img {
@@ -73,6 +78,7 @@ span {
 }
 
 .cta {
+  width: 35%;
   display: flex;
   align-content: center;
   flex-wrap: wrap;
@@ -82,20 +88,24 @@ h3.padding {
   padding: 1rem 0;
 }
 
-h3.button {
+a.button {
   color: white;
   font-weight: normal;
   background-color: black;
-  width: 30rem;
+  width: 95%;
   padding: 0.5rem 0;
   text-align: center;
 }
 
 .container {
   background-color: white;
-  border-bottom: solid 2px #471D70;
+  border-bottom: solid 2px #453073;
   width: 100%;
   display: flex;
+}
+
+.container h1 {
+  color: #453073;
 }
 
 .info {
@@ -114,6 +124,7 @@ h3.button {
 }
 
 .info h3 {
+  color: #471D70;
   padding: 1.5rem 0;
 }
 
@@ -126,8 +137,8 @@ h3.button {
 }
 
 .box {
-  border: solid 1px #471D70;
-  border-radius: 3px;
+  border: solid 1px #453073;
+  border-radius: 3px 0 0 3px;
   display: flex;
 }
 
@@ -163,8 +174,8 @@ h3.button {
 }
 
 #learn {
-  background-color: #6F25DE;
-  border-bottom: solid 2px #471D70;
+  background-color: #7C56CF;
+  border-bottom: solid 2px #453073;
 }
 
 #learn .center {
@@ -178,6 +189,7 @@ h3.button {
 }
 
 .center.exhibit {
+  color: #471D70;
   background-color: white;
 }
 
@@ -202,6 +214,7 @@ h3.button {
 }
 
 .learn-text h3 {
+  color: #32488A;
   padding: 1rem;
 }
 
@@ -228,4 +241,103 @@ footer nav {
 
 footer span {
   font-size: 0.8rem;
+}
+
+@media only screen and (max-width: 480px) {
+  body {
+    border: 0;
+  }
+
+  #logo h2,
+  header nav,
+  #learn img,
+  #learn p,
+  .list.exhibit,
+  .list img,
+  .info.practice,
+  .info.exhibit h3,
+  .info.exhibit p,
+  footer nav {
+    display: none;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  .hidden {
+    display: inline-block;
+  }
+
+  .login {
+    padding-right: 1.5rem;
+  }
+
+  #main img {
+    width: 100%;
+    padding: 0;
+  }
+
+  .cta {
+    width: 90%;
+    padding: 2rem 1rem;
+  }
+
+  .list {
+    width: 100%;
+  }
+
+  .box {
+    border-left: 0;
+    border-right: 0;
+    border-radius: 0;
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .box.first,
+  .box.third {
+    background-color: #E6E7F0;
+  }
+
+  .box.secound {
+    background-color: #A9B6FF;
+  }
+
+  .hidden img {
+    display: block;
+    width: 100%;
+    height: auto;
+    padding: 0;
+  }
+
+  .text {
+    padding: 1rem;
+  }
+
+  .item {
+    width: 100%;
+    margin: 0.5rem;
+  }
+
+  .info.exhibit {
+    width: 100%;
+    padding: 0 0 1.5rem 0;
+  }
+
+  .info.exhibit video {
+    width: 100%;
+    padding: 0;
+    border: 0;
+  }
+
+  footer {
+    width: 100%;
+    height: auto;
+  }
+
+  footer h6 {
+    padding: 1rem;
+  }
 }
